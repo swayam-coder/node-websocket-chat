@@ -1,0 +1,47 @@
+.something {
+    border-left: groove;
+    border-width: thin;
+}
+
+.chatarea {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    height: 100vh;
+    border: thin groove;
+    background-color: white;
+    margin: auto;
+    height: 80vh;
+    padding: 0;
+}
+
+.row{
+    background-color: #142f47;
+    height: 100vh;
+}
+
+.sendbtn, .chat-textArea{
+    border-radius: 0;
+}
+
+.chatdisplay{
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-end;
+    overflow: auto;
+    padding: 10px;
+}
+
+.mymessagebox {
+    padding: 5px 20px;
+    background-color: #007BFF;
+    border-radius: 20px;
+    color: white;
+}
+
+.messagebox {
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: #d4c7c7;
+    color: black;
+}

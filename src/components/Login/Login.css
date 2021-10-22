@@ -1,0 +1,34 @@
+.LoginForm{
+    width: 25%;
+    margin: auto;
+    padding: 20px;
+    border: groove;
+    border-width: thin;
+    background-color: #0069D9;
+    border-radius: 25px;
+}
+
+.formDiv {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #142f47;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button{
+    background-color: white;
+}
+
+label {
+    color: white;
+}
+/* .button:hover{
+    color: black;
+} */

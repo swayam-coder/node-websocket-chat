@@ -1,0 +1,31 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* used to give the element full height of viewport */
+    border-right: groove;
+    border-width: thin;
+}
+
+.col-md-3{
+    padding: 0;
+}
+
+.something {
+    border-left: groove;
+    border-width: thin;
+}
+
+.LoginForm{
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border: groove;
+    border-width: thin;
+}
+
+.formDiv {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
